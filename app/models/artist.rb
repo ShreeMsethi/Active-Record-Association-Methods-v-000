@@ -1,4 +1,4 @@
-class Artist < ActiveRecord::Base
+000000class Artist < ActiveRecord::Base
   has_many :songs
   has_many :genres, through: :songs
 
